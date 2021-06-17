@@ -4,30 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio</title>
+    <title>Portifólio </title>
+    <style>
+        #eu{
+            font-family: monospace;
+            padding-top: 10px;
+            text-decoration: fuchsia;
+        }
+        body{
+            background-color:floralwhite;
+        }
+        img{
+            border-radius: 60px;
+            border-style:hidden;
+        }
+        #links{
+            display:inline-block;
+            padding-left: 20px;
+            
+        }
+        strong{
+            text-shadow: fuchsia;
+        }
+        .hs{
+            font-size: large;
+        }
+        .ss{
+            font-size:medium;
+        }
+    </style>
 </head>
 <body>
-    <h1>Saulo Lima de Carvalho</h1>
-    <img id = "foto" src="/home/saulo/Pictures/imagens/3x4/propic.jpeg" alt="Foto sorrindo" width="200px" border-radious: 5px;>
-    <a href="https://github.com/saulolima-c" target="_blank"><p>Github</p></a>
-    <a href="https://www.linkedin.com/in/saulolima-23112001/" target="_blank"><p>LinkedIn</p></a>
-    <a href="#soft"><p>Soft Skills</p></a>
-    <a href="#hab"><p>Hard Skills</p></a>
-    <a href="#sobre"><p>Mais sobre mim</p></a>
+    <h1 id = 'eu'>Saulo Lima de Carvalho - Desenvolvedor Web</h1>
     <hr>
-    <p>Sou estudante de desenvolvimento Web<em> Full Stack</em>, junto com a Trybe. Nascido e criado em Belo Horizonte/MG.</p>
+    <img id = "foto" src="/home/saulo/Pictures/imagens/3x4/propic.jpeg" alt="Foto sorrindo" width="200px">
+    
+    <div id ='links'>
+        <a href="https://github.com/saulolima-c" target="_blank"><p>Github</p></a>
+        <a href="https://www.linkedin.com/in/saulolima-23112001/" target="_blank"><p>LinkedIn</p></a>
+        <a href="#soft"><p>Soft Skills</p></a>
+        <a href="#hab"><p>Hard Skills</p></a>
+        <a href="#sobre"><p>Mais sobre mim</p></a>
+    </div>
+    
+    <p id = "eu">Sou estudante de desenvolvimento Web<em> Full Stack</em>, junto com a Trybe. Nascido e criado em Belo Horizonte/MG.</p>
     <hr>
-
-    <ul id = "hab"><h3>Algumas das minhas habilidades:</h3>
+    <h3>Algumas das minhas habilidades:</h3>
+    <ul id = "hab">
         <strong><li>C</li></strong>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
+        <li class="hs">HTML</li>
+        <li class="hs">CSS</li>
+        <li class="hs">JavaScript</li>
     </ul>
-    <ul id = "soft"><h3>Outras habilidades das quais me orgulho:</h3>
-        <li>Empatia</li>
-        <li>Comprometimento</li>
-        <li>Assertividade</li>
+    <h3>Outras habilidades das quais me orgulho:</h3>
+    <hr>
+    <ul id = "soft">
+        <li class="ss">Empatia</li>
+        <li class="ss">Comprometimento</li>
+        <li class="ss">Assertividade</li>
     </ul>
 <a href="#foto">Minha foto</a>
 <p id='sobre'>Duas coisas que eu gosto muito são <strong>Psicologia</strong> e <strong>Cinema</strong>. Se eu dissesse que existe um blog que junta estas duas coisas, você acreditaria? Dê uma olhada clicando <a href="http://www.psicologiaecinema.com/">aqui</a></p>
