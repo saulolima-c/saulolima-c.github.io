@@ -5,51 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio </title>
-    <style>
-        #eu{
-            font-family: monospace;
-            padding-top: 10px;
-            text-decoration: fuchsia;
-        }
-        body{
-            background-color:floralwhite;
-        }
-        img{
-            border-radius: 60px;
-            border-style:hidden;
-        }
-        #links{
-            display:inline-block;
-            padding-left: 20px;
-            
-        }
-        strong{
-            text-shadow: fuchsia;
-        }
-        .hs{
-            font-size: large;
-        }
-        .ss{
-            font-size:medium;
-        }
-        .neonText {
-            color: rgb(3, 3, 3);
-            text-shadow:
-                0 0 7px rgb(190, 108, 108),
-                0 0 10px rgb(190, 108, 108),
-                0 0 21px rgb(190, 108, 108),
-                0 0 42px rgb(190, 108, 108),
-                0 0 82px rgb(233, 52, 224),
-                0 0 92px rgb(233, 52, 224),
-                0 0 102px rgb(233, 52, 224),
-                0 0 151px rgb(233, 52, 224);
-}
-    </style>
+    <link rel="stylesheet" href="./style.css" />
+    
 </head>
 <body>
-    <h1 id = 'eu'>Saulo Lima de Carvalho - Desenvolvedor Web</h1>
-    <hr>
-    <img id = "foto" src="https://media-exp1.licdn.com/dms/image/C4D03AQFO9yNtAhr3QQ/profile-displayphoto-shrink_200_200/0/1612885714748?e=1629331200&v=beta&t=RUzywPYREgFCpTVhP2Nfvp4eTyXNcsHV_hb7pXzNiKQ" alt="Foto sorrindo" width="200px">
+    <div class = 'header'>
+        <h1 id = 'eu' class="meunome">Saulo Lima de Carvalho - Desenvolvedor Web</h1>
+        <hr>
+        <div>
+            <img id = "foto" src="https://media-exp1.licdn.com/dms/image/C4D03AQFO9yNtAhr3QQ/profile-displayphoto-shrink_200_200/0/1612885714748?e=1629331200&v=beta&t=RUzywPYREgFCpTVhP2Nfvp4eTyXNcsHV_hb7pXzNiKQ" alt="Foto sorrindo" width="200px">
+            <p id = "eu" class = 'desc'>Sou estudante de desenvolvimento Web<em> Full Stack</em>, junto com a Trybe. Nascido e criado em Belo Horizonte/MG.</p>
+        </div>
+    </div>
     
     <div id ='links'>
         <a href="https://github.com/saulolima-c" target="_blank"><p>Github</p></a>
@@ -59,7 +26,7 @@
         <a href="#sobre"><p>Mais sobre mim</p></a>
     </div>
     
-    <p id = "eu">Sou estudante de desenvolvimento Web<em> Full Stack</em>, junto com a Trybe. Nascido e criado em Belo Horizonte/MG.</p>
+    
     <hr>
     <h3>Algumas das minhas habilidades:</h3>
     <ul id = "hab">
